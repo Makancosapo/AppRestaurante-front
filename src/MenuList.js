@@ -301,7 +301,7 @@ const MenuList = () => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={food.imgdir}
+                  image ={food.imgdir}
                   alt={food.Nombre}
                 />
                 <CardContent>
