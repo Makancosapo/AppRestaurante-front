@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px; /* 8rem */
+  }
+  
+  .avatar {
+    margin: 8px;
+    background-color: #1976d2; /* Color principal de Material-UI */
+  }
+  
+  .form {
+    width: 100%; /* Hace que el formulario ocupe todo el ancho del contenedor */
+    margin-top: 16px; /* 1rem */
+  }
+  
+  .submit-button {
+    margin-top: 24px; /* 3rem */
+    margin-bottom: 16px; /* 2rem */
+  }
+  
+  .centered-text {
+    text-align: center;
+    color: #6c757d; /* Gris claro */
+  }
+  
+  .link {
+    color: #1976d2; /* Azul principal */
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

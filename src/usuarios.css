@@ -1,0 +1,75 @@
+.app-bar {
+  background-color: #0078d7;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.table-container {
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.table-header {
+  color: white !important;
+  background-color: #007bff; 
+  text-align: center;
+  font-weight: bold;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #0078d7;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+}
+
+.search-field {
+  width: 200px;
+}
+
+.filter-select {
+  width: 150px;
+}
